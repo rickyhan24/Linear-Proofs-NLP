@@ -4,6 +4,8 @@ A project in which NLP is used to generate step by step proofs for solving linea
 ## Introduction
 In this project, I collaborated with Robert Perry who has expertise in NLP and computational linguistics.  Inspired by the paper titled "Deep Learning for Symbolic Mathematics", https://arxiv.org/abs/1912.01412, by Guillaume Lample and François Charton, we sought to explore whether we can extend the ability of NLP models to predict the steps in solving a math problem in addition to giving the final solution to the problem.  In the Lample and Charton paper, they applied an NLP model to predict only the final answer to calculus integral problems, among other math problems.  We focused on a very simple type of math problem, the linear equation problem.  We sought to have the NLP model predict the steps along with the algebraic properties used for each step such as the additive inverse property. 
 
+You can find the google colab notebook here: https://colab.research.google.com/github/rickyhan24/Linear-Proofs-NLP/blob/main/Linear_Proofs_LSTM.ipynb
+
 ## Data Generation
 In order to have a dataset of problems and steps leading up to the final solution, we created them from scratch.  A template for the problem/proof statements in infix notation was used to generate variations for the linear equation problem ax+b=d.
 
